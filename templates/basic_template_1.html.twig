@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('basic_template_1') }}
+{% endblock %}
+{% block body %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2 bg-info">
+                <a href="#">napis</a> 
+                <a href="#">napis2</a> 
+                <a href="#">napis3</a> 
+                <a href="#">napis4</a> 
+                <a href="#">napis5</a>    
+            </div>
+            <div class="col-8 bg-secondary">
+                <div class="bg-success h3 text-center">dziala to</div>
+            </div>
+            <div class="col-2">
+                <a href="#" id="link">napis</a> 
+                <a href="#">napis2</a> 
+                <a href="#">napis3</a> 
+                <a href="#">napis4</a> 
+                <a href="#">napis5</a> 
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}

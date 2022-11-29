@@ -1,0 +1,11 @@
+{% block javascripts %}
+    {# {{ parent() }} #}
+    {{ encore_entry_script_tags('headers') }}
+{% endblock %}
+<div class="h1">Nagłówek basic_template</div>
+<div class="d-flex justify-content-evenly" id="header_menu">
+    <div class="">Home</div>
+    <div class="">Categories</div>
+    <div class="">Best</div>
+    <div class="">About</div>
+</div>
